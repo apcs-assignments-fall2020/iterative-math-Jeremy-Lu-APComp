@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class MyMain {
     
     // Calculates the square root iteratively, using the Babylonian method
-    public static double babylonian(int n) {
+    public static double babylonian(double n) {
         // m = (n + x/n) / 2
         double x = n;
         double y = n+1; //the previous value of n;
